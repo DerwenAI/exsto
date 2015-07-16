@@ -1,10 +1,10 @@
-# Microservices, Containers, and Machine Learning
+# Exsto: Microservices, Containers, and Machine Learning
 
 A frequently asked question on the [Apache Spark](http://spark.apache.org/) 
 user email list concerns where to find data sets for evaluating the code.
-Oddly enough, the collect of archived messages for this email list
-provides an excellent data set to evalute machine learning, graph
-algorithms, text analytics, time-series analysis, etc.
+Oddly enough, the collection of archived messages for this email list
+provides an excellent data set for evaluating Spark capabilities, e.g.,
+machine learning, graph algorithms, text analytics, time-series analysis, etc.
 
 Herein, an open source developer community considers itself algorithmically.
 This project shows work-in-progress for how to surface data insights from 
@@ -15,8 +15,19 @@ As an example, we use data from the `<user@spark.apache.org>`
 [email list archives](http://mail-archives.apache.org) to help understand 
 its community better.
 
-See [DataDayTexas 2015 session talk]
+See these talks about `Exsto`:
+<ul>
+<li>
+DataDayTexas 2015 session talk,
+[Microservices, Containers, and Machine Learning]
 (http://www.slideshare.net/pacoid/microservices-containers-and-machine-learning)
+</li>
+<li>
+Scala Days EU 2015 session,
+[GraphX: Graph analytics for insights about developer communities]
+(http://www.slideshare.net/pacoid/graphx-graph-analytics-for-insights-about-developer-communities)
+</li>
+</ul>
 
 In particular, we will shows production use of NLP tooling in Python, 
 integrated with
