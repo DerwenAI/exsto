@@ -1,4 +1,4 @@
-# Exsto: Microservices, Containers, and Machine Learning
+# Exsto: Developer Community Insights
 
 A frequently asked question on the [Apache Spark](http://spark.apache.org/) 
 user email list concerns where to find data sets for evaluating the code.
@@ -85,7 +85,7 @@ To change the project configuration simply edit the `defaults.cfg`
 file.
 
 
-### scrape the email list
+### scrape the email list via scripts
 
 ```bash
 ./scrape.py data/foo.json
@@ -97,24 +97,15 @@ file.
 ./parse.py data/foo.json parsed/foo.json
 ```
 
+## Public Data
+
+Example data from the Apache Spark email list is available as JSON:
+
+  * original: [https://s3-us-west-1.amazonaws.com/paco.dbfs.public/exsto/original/2015_01.json](https://s3-us-west-1.amazonaws.com/paco.dbfs.public/exsto/original/2015_01.json)
+  * parsed: [https://s3-us-west-1.amazonaws.com/paco.dbfs.public/exsto/parsed/2015_01.json](https://s3-us-west-1.amazonaws.com/paco.dbfs.public/exsto/parsed/2015_01.json)
+
 
 # What's in a name?
 
 The word [exsto](http://en.wiktionary.org/wiki/exsto) is the Latin
 verb meaning "to stand out", in its present active form.
-
-
-# Research Topics
-
-### machine learning
-
-  * [TextRank](http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf)
-  * [Word2Vec use cases](http://www.yseam.com/blog/WV.html)
-  * [Word2Vec vs. GloVe](http://radimrehurek.com/2014/12/making-sense-of-word2vec/)
-
-### microservices and containers
-
-  * [The Strengths and Weaknesses of Microservices](http://www.infoq.com/news/2014/05/microservices)
-  * [Microservices architecture](http://martinfowler.com/articles/microservices.html)
-  * [Adrian Crockcroft @ DockerCon](https://blog.docker.com/2014/12/dockercon-europe-keynote-state-of-the-art-in-microservices-by-adrian-cockcroft-battery-ventures/)
-  * [Weave](https://github.com/zettio/weave)
