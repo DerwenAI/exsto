@@ -91,7 +91,7 @@ file.
 ./scrape.py data/foo.json
 ```
 
-### parse the email text
+### parse the email text via scripts
 
 ```bash
 ./parse.py data/foo.json parsed/foo.json
